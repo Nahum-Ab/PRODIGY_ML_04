@@ -24,3 +24,20 @@ To set up the project, follow these steps:
    ```bash
    pip install numpy opencv-python keras tensorflow scikit-learn
    ```
+
+## Usage
+
+1. **Prepare the Dataset**:
+   Ensure your dataset is structured correctly as shown above.
+
+2. **Run the Training Script**:
+   Execute the training script to train the model on your dataset:
+   ```bash
+   python train.py
+   ```
+3. **Real-Time Gesture Recognition**:
+   After training, run the real-time recognition script:
+   ```bash
+   python recognize.py
+   ```
+   *Press 'q' to exit the webcam feed.*
