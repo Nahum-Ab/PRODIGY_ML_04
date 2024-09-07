@@ -17,7 +17,7 @@ To set up the project, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/hand-gesture-recognition.git
+   git clone https://github.com/Nahum-Ab/hand-gesture-recognition.git
    cd hand-gesture-recognition
    ```
 2. **Install Required Packages**:
@@ -28,16 +28,10 @@ To set up the project, follow these steps:
 ## Usage
 
 1. **Prepare the Dataset**:
-   Ensure your dataset is structured correctly as shown above.
-
-2. **Run the Training Script**:
-   Execute the training script to train the model on your dataset:
+   Ensure your dataset is structured correctly.
+2. **Real-Time Gesture Recognition**:
+   Execute the script to train the model and run the Real-Time Gesture on your dataset.
    ```bash
-   python train.py
-   ```
-3. **Real-Time Gesture Recognition**:
-   After training, run the real-time recognition script:
-   ```bash
-   python recognize.py
+   python main.py
    ```
    *Press 'q' to exit the webcam feed.*
